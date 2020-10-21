@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+
+table, th, td {
+  border: 3px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+  height: 40px;
+  text-align: middle;
+  background-color: salmon;
+}
+td {
+  height: 30px;
+  text-align: right;
+  padding: 15px;
+}
+tbody{
+    background-color: lightblue;
+}
+tfoot{
+    background-color: yellow;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<table>
+<caption>Skin Thickness Based On Location</caption>
+    <thead>
+        <tr>
+            <th>Skin Layer</th>
+            <th>Back</th>
+            <th>Face/Scalp</th>
+            <th>Palm</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Epidermis</td>
+            <td>0.25 mm</td>
+            <td>0.12 mm</td>
+            <td>0.50 mm</td>
+        </tr>
+        <tr>
+            <td>Dermis</td>
+            <td>3.75 mm</td>
+            <td>1.60 mm</td>
+            <td>1.00 mm</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>4.00 mm</td>
+            <td>1.72 mm</td>
+            <td>1.50 mm</td>
+        </tr>
+    </tfoot>
+
+</table>
+</body>
+</html>
