@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model</title>
+<style>
+
+#a{
+  width: 300px;
+  border: 20px solid blue;
+  padding: 45px;
+  margin: 20px;
+}
+
+#b{
+    width: 400px;
+    border: 10px solid salmon;
+    border-style: solid dashed solid dashed; 
+    padding: 25px 35px 25px 35px;
+    margin: 20px 30px 20px 30px;
+}
+
+#c{
+    width: 200px;
+    border: 10px solid red;
+    border-style: solid dashed dotted hidden;
+    padding: 10px 20px 30px 40px;
+    margin: 30px 25px 20px 15px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="a">
+    <p>
+    content width: <br>300px</br>
+    top margin: <br>20 px</br>
+    right margin: <br>20 px</br>
+    bottom margin: <br>20 px</br>
+    left margin: <br>20 px</br>
+    top border: <br>20 px</br>
+    right border: <br>20 px</br>
+    bottom border: <br>20 px</br>
+    left border: <br>20 px</br>
+    top padding: <br>45 px</br>
+    right padding: <br>45 px</br>
+    bottom padding: <br>45 px</br>
+    left padding: <br>45 px</br>
+    outline thickness: <br>85 px</br>
+    TOTAL BOX WIDTH: 475 px
+    </p>
+</div>
+
+<div id="b">
+    <p>
+    content width: <br>400 px</br>
+    top margin: <br>20 px</br>
+    right margin: <br>30 px</br>
+    bottom margin: <br>20 px</br>
+    left margin: <br>30 px</br>
+    top border: <br>10 px</br>
+    right border: <br>10 px</br>
+    bottom border: <br>10 px</br>
+    left border: <br>10 px</br>
+    top padding: <br>25 px</br>
+    right padding: <br>35 px</br>
+    bottom padding: <br>25</br>
+    left padding: <br>35</br>
+    outline thickness: <br>55 px / 75 px</br>
+    TOTAL BOX WIDTH: 580 px
+    </p>
+</div>
+
+<div id="c">
+    <p>
+    content width: <br>200 px</br>
+    top margin: <br>30 px</br>
+    right margin: <br>25 px</br>
+    bottom margin: <br>20 px</br>
+    left margin: <br>15</br>
+    top border: <br>10 px</br>
+    right border: <br>10 px</br>
+    bottom border: <br>10 px</br>
+    left border: <br>10 px</br>
+    top padding: <br>10 px</br>
+    right padding: <br>20 px</br>
+    bottom padding: <br>30 px</br>
+    left padding: <br>40 px</br>
+    outline thickness: <br>50 px / 55 px / 60 px / 65 px</br>
+    TOTAL BOX WIDTH: 320 px
+    </p>
+</div>
+
+</body>
+</html>
