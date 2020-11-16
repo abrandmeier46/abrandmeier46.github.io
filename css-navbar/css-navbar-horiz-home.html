@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Navigation Bar Horizontal Home</title>
+<style>
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  width: 100%;
+  background-color: lightblue;
+  position: fixed;
+  height: 24px;
+  overflow: auto;
+}
+
+li {
+  display: inline;
+  color: grey;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: pink;
+  color: grey;
+}
+
+li a:hover:not(.active) {
+  background-color: purple;
+  color: grey;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="css-navbar-horiz-home.html">Home</a></li>
+  <li><a href="css-navbar-horiz-news.html">News</a></li>
+  <li><a href="css-navbar-horiz-contacts.html">Contact</a></li>
+  <li><a href="css-navbar-horiz-about.html">About</a></li>
+</ul>
+
+<div>
+<h1>Home</h1>
+</div>
+
+</body>
+</html>
+
