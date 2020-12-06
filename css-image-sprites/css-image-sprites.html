@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Image Sprites</title>
+<style>
+
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 50px;
+  display: block;
+}
+
+#steve {
+  left: 0px;
+  width: 50px;
+  background: url('Minecraft1.png') 0 0;
+}
+
+#notch {
+  left: 63px;
+  width: 50px;
+  background: url('Minecraft1.png') -51px 0;
+}
+
+#alex {
+  left: 129px;
+  width: 50px;
+  background: url('Minecraft1.png') -102px 0;
+}
+
+#zombie {
+  left: 195px;
+  width: 50px;
+  background: url('Minecraft1.png') -153px 0;
+}
+
+#steve a:hover {
+  background: url('Minecraft1.png') 0 -51px;
+}
+
+#notch a:hover {
+  background: url('Minecraft1.png') -51px -51px;
+}
+
+#alex a:hover {
+  background: url('Minecraft1.png') -102px -51px;
+}
+
+#zombie a:hover {
+  background: url('Minecraft1.png') -153px -51px;
+}
+
+</style>
+</head>
+<body>
+
+<ul id="navlist">
+  <li id="steve"><a href="http://beesbeesbees.com/"></a></li>
+  <li id="notch"><a href="http://corndog.io/"></a></li>
+  <li id="alex"><a href="http://www.staggeringbeauty.com/"></a></li>
+  <li id="zombie"><a href="http://eelslap.com/"></a></li>
+</ul>
+
+
+</body>
+</html>
