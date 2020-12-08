@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Gradients</title>
+<style>
+
+.square {
+    height: 400px;
+    width: 400px;
+}
+
+#a{
+    background-image: linear-gradient(red, yellow);
+}
+
+#b{
+    background-image: linear-gradient(to left, yellow , lightgreen , lightblue);
+}
+
+#c{
+    background-image: linear-gradient(to bottom right, lightblue, cornflowerblue, blueviolet, darkviolet);
+}
+
+#d{
+    background-image: linear-gradient(rgba(162,0,255,1), rgba(244,255,57,.7), rgba(204,142,189,.4), rgba(0,254,0,.7), rgba(255,0,0,1));
+}
+
+#e{
+    background-image: repeating-linear-gradient(blueviolet, coral 25%);
+}
+
+#f{
+    background-image: repeating-linear-gradient(lightblue, crimson, lightblue 20%)
+}
+
+#g{
+    background-image: radial-gradient(cornflowerblue, limegreen, gold, crimson) 
+}
+
+</style>
+</head>
+<body>
+
+    <div id="a" class="square"></div>
+    <div id="b" class="square"></div>
+    <div id="c" class="square"></div>
+    <div id="d" class="square"></div>
+    <div id="e" class="square"></div>
+    <div id="f" class="square"></div>
+    <div id="g" class="square"></div>
+
+</body>
+</html>
