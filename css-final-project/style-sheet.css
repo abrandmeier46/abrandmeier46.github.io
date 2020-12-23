@@ -50,16 +50,16 @@ li a:hover {
 /*images*/
 #b{
     position: relative;
-    left: 150px;
+    left: 5%;
 }
 
 #c{
     position: relative;
-   left: 300px;
+   left: 15%;
 }
 
 .bc{
-    margin: 0px 0px 25px 0px;
+    margin: 10px 0px 25px 0px;
 }
 
 /*email*/
@@ -89,8 +89,8 @@ li a:hover {
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
-  padding: 15px;
+  width: 48%;
+  padding: 1%;
 
 }
 
@@ -107,4 +107,33 @@ li a:hover {
   .column {
     width: 100%;
   }
+}
+
+/*css regarding the photos in the photos page*/
+
+body.body{
+    background: #e1e1d0;
+    
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #e1e1d0;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: black;
 }
