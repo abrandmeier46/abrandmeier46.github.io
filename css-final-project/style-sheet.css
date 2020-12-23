@@ -119,7 +119,6 @@ body.body{
 div.gallery {
   margin: 5px;
   border: 1px solid #e1e1d0;
-  float: left;
   width: 180px;
 }
 
@@ -136,4 +135,9 @@ div.desc {
   padding: 15px;
   text-align: center;
   color: black;
+}
+
+/*History div sections*/
+.z{
+    padding: 10px;
 }
